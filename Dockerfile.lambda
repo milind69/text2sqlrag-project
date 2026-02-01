@@ -112,6 +112,11 @@ RUN dnf install -y \
     file-libs \
     glib2 \
     fontconfig \
+    cairo \
+    pango \
+    freetype \
+    harfbuzz \
+    fontconfig \
     && dnf clean all \
     && rm -rf /var/cache/dnf
 
